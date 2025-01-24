@@ -1,25 +1,24 @@
+# StudyNotion
 
-StudyNotion
+StudyNotion is an ed-tech platform built using the MERN stack (MongoDB, ExpressJS, ReactJS, NodeJS). It allows users to create, consume, and rate educational content. The platform provides a seamless learning experience for students and offers instructors a space to showcase their courses and expertise.
 
-Project Description
+## Features
 
-StudyNotion is an e-learning platform built using the MERN stack (MongoDB, ExpressJS, ReactJS, NodeJS) that allows users to create, consume, and rate educational content. It provides a seamless and interactive learning experience for students and a platform for instructors to showcase their expertise. The platform includes functionalities for user authentication, course management, and payment integration.
+- **User Authentication**: Secure login and registration with JWT-based authentication.
+- **Course Management**: Instructors can create, manage, and update courses.
+- **Content Rating**: Students can rate and review courses they have consumed.
+- **Responsive UI**: Built with ReactJS and Tailwind CSS for a mobile-first experience.
+- **State Management**: Utilizes Redux for state management across the platform.
 
-Key Features
+## Technologies Used
 
-User authentication (signup, login)
-Course creation, update, and deletion (instructors)
-Course enrollment (students)
-Course content management (text, media)
-Payment processing (course enrollment fees)
-User feedback and ratings for courses
-Instructor dashboard with course insights and student management
-Technologies Used
+- **Frontend**:
+  - ReactJS
+  - Tailwind CSS
+  - Redux
+- **Backend**:
+  - NodeJS
+  - ExpressJS
+  - MongoDB
+  - JWT for authentication
 
-Front-end: ReactJS
-Back-end: NodeJS, ExpressJS
-Database: MongoDB
-Media storage: Cloudinary
-API design: RESTful principles
-Deployment: Vercel (front-end), Render/Railway (back-end), MongoDB Atlas (database)
-Testing: Jest, Mocha, Cypress, Postman
